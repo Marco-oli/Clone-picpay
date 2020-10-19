@@ -24,9 +24,8 @@ const Routes = () => {
   useEffect(() => {
     setTimeout(() => {
       SplashScreen.hide();
-    }, 1000);
+    }, 5000);
   }, []);
-
   return (
     <NavigationContainer>
       <Tab.Navigator
