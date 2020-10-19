@@ -47,7 +47,7 @@ const PayServices = () => {
   return (
     <S.PayServicesContainer>
       {items.map((item) => (
-        <S.ServicesBox>
+        <S.ServicesBox key={item.key}>
           <S.Img source={item.img} resizeMode="contain" />
 
           <S.DetailsContainer>

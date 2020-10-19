@@ -74,7 +74,9 @@ const Notifications = () => {
 
         <S.Body>
           {items.map((item) => (
-            <S.ContainerBody bgColor={item.lida ? '#fff' : '#d3f3de'}>
+            <S.ContainerBody
+              key={item.key}
+              bgColor={item.lida ? '#fff' : '#d3f3de'}>
               <S.Message key={item.key}>{item.message}</S.Message>
               <S.Date>{item.data}</S.Date>
             </S.ContainerBody>

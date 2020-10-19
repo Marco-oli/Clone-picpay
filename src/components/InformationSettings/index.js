@@ -42,7 +42,7 @@ const InformationSettings = () => {
   return (
     <>
       {items.map((item) => (
-        <S.Container>
+        <S.Container key={item.key}>
           <S.Title>{item.title}</S.Title>
           <S.Description>{item.label}</S.Description>
         </S.Container>
