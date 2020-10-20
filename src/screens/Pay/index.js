@@ -16,9 +16,7 @@ const Pay = () => {
         <S.Header>
           <IconMaterial name="qrcode-scan" size={30} color="#10c86e" />
 
-          <S.SearchContainer
-            placeholder="Quem você quer pagar?"
-            placeholderTextColor="#fff">
+          <S.SearchContainer placeholder="ola">
             <IconIonicons name="search" size={20} color="#555E60" />
           </S.SearchContainer>
         </S.Header>

@@ -8,7 +8,7 @@ import Banner from '../../components/Banner';
 
 // Styles and Icons
 import * as S from './styles';
-import IconMaterial from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import IconAntDesign from 'react-native-vector-icons/AntDesign';
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
     <S.Wrapper>
       <S.Container>
         <S.Header>
-          <IconMaterial name="qrcode-scan" size={30} color="#10c86e" />
+          <Icon name="qrcode-scan" size={30} color="#10c86e" />
 
           <S.BalanceContainer>
             <S.BalanceTitle>Meu Saldo</S.BalanceTitle>

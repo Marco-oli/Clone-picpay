@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import LinearGradient from 'react-native-linear-gradient';
 
-export const Wrapper = styled.View`
+export const Wrapper = styled.ScrollView`
   background: #000;
   flex: 1;
 `;
@@ -85,7 +85,7 @@ export const UseBalanceTitle = styled.Text`
 `;
 
 export const PaymentMethods = styled.View`
-  margin-top: 25px;
+  margin: 25px 0;
   padding: 0 16px;
 `;
 
